@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>結帳｜競界有限公司</title>
-  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="stylesheet" href="./styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@
           <button type="submit" class="primary">送出訂單</button>
           <a href="./index.html" class="ghost">繼續選購</a>
         </div>
-        <p class="muted">提醒：本網站為靜態示範，提交後將在本機產生訂單與收據檔案。</p>
+        <p class="muted">提醒：提交後將產生訂單與收據檔案。</p>
       </form>
     </section>
 
@@ -77,12 +77,12 @@
 </main>
 
 <footer class="site-footer">
-  <div>© <span id="year"></span> 競界有限公司</div>
-  <div>公司登記資訊：競界有限公司｜統一編號：60773118</div>
+  <div>© <span id="year"></span> Jingjie-Store</div>
+  <div>競界有限公司｜統一編號：60773118</div>
 </footer>
 
-<script src="./assets/products.js"></script>
-<script src="./assets/app.js"></script>
+<script src="./products.js"></script>
+<script src="./app.js"></script>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
   window.JJ.renderCheckout();
